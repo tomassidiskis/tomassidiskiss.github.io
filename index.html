@@ -14,12 +14,17 @@
 	</head>
 	<body class="is-preload">
 
+		<div class="loader_bg">
+			<div id="loader"></div>
+		</div>
+
+
 		<!-- Wrapper -->
 			<div id="wrapper">
-w
+
 				<!-- Header -->
 					<header id="header" class="alt">
-						<a href="index.html" class="logo"><strong>	Tomas Sidiskis</strong> <span>Portfolio</span></a>
+						<a href="index.html" class="logo"><strong>	TS</strong> <span>Portfolio</span></a>
 						<nav>
 							<a href="#menu">Menu</a>
 						</nav>
@@ -142,6 +147,7 @@ w
 											<li>dbt Fundamentals - dbt Labs</li>
 											<li>Python Fundamentals - Data Camp</li>
 											<li>Introduction to Data Engineering - Data Camp</li>
+											<li>Understanding Data Engineering - Data Camp</li>
 										</ul>
 </div>
 									
@@ -239,6 +245,15 @@ w
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<script>
+				setTimeout(function(){
+					$('.loader_bg').fadeToggle();
+				}, 2300);
+
+
+			</script>
+
 
 	</body>
 </html>
